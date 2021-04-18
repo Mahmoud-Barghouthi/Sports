@@ -1,0 +1,42 @@
+
+ header{
+   background-color: #f58634;
+ }
+
+ h1{
+   color:#81b214;
+   text-align:center;
+ }
+
+ nav ul li a {
+   color: #ffcc29;
+  
+ }
+
+nav ul li {
+display: inline;
+padding: 60px;
+padding-left: 0px;
+margin-left: 0px;
+}
+
+ nav ul li a{
+   text-decoration:none;
+ }
+
+
+article p:nth-child(1) {
+color: #a799b7;
+background-color: #1b1a17;
+
+}
+
+.bodyP{
+  font-size: 15px;
+  color:#a799b7;
+  background: #fb3640;
+}
+
+footer{
+  text-align: center;
+}
