@@ -25,20 +25,16 @@ margin-left: 0px;
  }
 
 
-<<<<<<< HEAD
 #Int {
-=======
-article p:nth-child(1) {
->>>>>>> 89e94eac80f8d2d6ca84c436302ee5e2a8f10304
 color: #a799b7;
 background-color: #1b1a17;
 
 }
 
-.bodyP{
+.bodyP {
   font-size: 15px;
   color:#a799b7;
-  background: #fb3640;
+  background-color: #fb3640;
 }
 
 footer{

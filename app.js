@@ -31,22 +31,21 @@ var harden = '<img src="https://cdn.theathletic.com/app/uploads/2020/12/22080527
 
 
 // Validator
+
 var userChoose='' ;
 
 function bestPp () {
-<<<<<<< HEAD
 while (bestP !== 'curry' && bestP !== 'Curry' && bestP !== 'james' && bestP !== 'James' && bestP !== 'harden'&& bestP !== 'Harden') {
   bestP = prompt('Please enter the name curry or james or harden');
 }
 
 if (bestP == 'curry' || bestP == 'Curry') {
-=======
+
 while (bestP !== 'curry' && bestP !== 'james' && bestP !== 'harden') {
   bestP = prompt('Please enter the name curry or james or harden');
 }
 
 if (bestP == 'curry' && bestP == 'Curry') {
->>>>>>> 89e94eac80f8d2d6ca84c436302ee5e2a8f10304
   userChoose = '<img src="https://images-na.ssl-images-amazon.com/images/I/91hSkMAZUVL._AC_SL1500_.jpg">';
 } else if (bestP == 'james' || bestP == 'James') {
   userChoose = '<img src="https://www.thesun.co.uk/wp-content/uploads/2020/10/41c988e9-5996-4aa1-ba3e-a77c85f2680c.jpg">';
@@ -55,14 +54,12 @@ if (bestP == 'curry' && bestP == 'Curry') {
 }
 console.log('Curry is the best play')
 }
+}
 
 bestPp () ;
 
 var bestP = prompt('How many image do you want???');
 
-for (var i = 1; i <= bestP ; i++) {
-document.write(userChoose);}
-
-
-
-
+for (var i = 1 ; i <= bestP ; i++) {
+  document.write(userChoose)
+}
